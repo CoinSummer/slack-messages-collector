@@ -1,0 +1,4 @@
+interface:
+  display_name: "Slack Transcript Export"
+  short_description: "Export Slack threads grouped by speaker."
+  default_prompt: "Use $slack-channel-transcript-export to export Slack messages from channel C123 for 2026-06-01 to 2026-06-02, including thread replies, grouped by speaker as JSON."
