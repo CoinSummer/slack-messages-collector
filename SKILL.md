@@ -1,9 +1,9 @@
 ---
-name: slack-channel-transcript-export
-description: Export Slack messages from a specified channel and time range, including thread replies where Slack APIs can enumerate them, grouped by speaker into JSON. Use when the user asks to collect, dump, archive, analyze, or export Slack channel history for a date/time window.
+name: slack-messages-collector
+description: 获取指定 Slack channel 在给定时间段内的聊天记录，并尽可能包含 thread 回复，按发言人聚合导出为 JSON。适用于收集、归档、分析或导出 Slack 频道历史消息。
 ---
 
-# Slack Channel Transcript Export
+# Slack Messages Collector
 
 ## Overview
 
